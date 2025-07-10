@@ -1,8 +1,6 @@
 import { useRef } from 'react';
 import './App.css';
-//@ts-expect-error: federated component from remote
 import Button from 'remote/Button';
-//@ts-expect-error: federated component from remote
 import Input from 'remote/input';
 
 const App = () => {
